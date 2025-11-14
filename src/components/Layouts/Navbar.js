@@ -1,4 +1,4 @@
-import { IconButton } from '@chakra-ui/button';
+// import { IconButton } from '@chakra-ui/button';
 import {
     Stack,
     Flex,
@@ -8,7 +8,7 @@ import {
     Text,
     Button,
 } from "@chakra-ui/react";
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+// import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
     return (

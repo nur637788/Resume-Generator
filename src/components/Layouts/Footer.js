@@ -1,7 +1,6 @@
 import {
     Text,
     Stack,
-    HStack,
     Box,
     Container,
     IconButton,

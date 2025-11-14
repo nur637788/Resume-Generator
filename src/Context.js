@@ -1,5 +1,5 @@
-import { createContext, useContext, useEffect, useRef, useState } from "react";
-import { useToast } from '@chakra-ui/react';
+import { createContext, useContext, useRef, useState } from "react";
+// import { useToast } from '@chakra-ui/react';
 
 const ResumeContext = createContext();
 
@@ -8,7 +8,7 @@ export const useResume = () => useContext(ResumeContext);
 export const ResumeProvider = ({ children }) => {
 
     const printElem = useRef();
-    const toast = useToast();
+    // const toast = useToast();
 
     const [theme, setTheme] = useState('purple.400');
 
@@ -19,7 +19,7 @@ export const ResumeProvider = ({ children }) => {
         phone: "",
         address: "",
         linkedin: "",
-        picture:"",
+        picture: "",
     });
 
     const [educationList, setEducationList] = useState([
