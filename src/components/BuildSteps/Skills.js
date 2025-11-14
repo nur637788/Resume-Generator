@@ -45,13 +45,12 @@ const Skills = () => {
             <Box borderWidth={'1px'} rounded={'sm'} my={4} p={2}>
                 {skills.length > 0 ? skills.map((skill, index) => (
                     <Tag
-                        size={'lg'}
-                        key={index}
-                        borderRadius='full'
-                        variant='solid'
-                        colorScheme='purple'
-                        m={0.5}
+                        size="lg"
                         key={skill.id}
+                        borderRadius="full"
+                        variant="solid"
+                        colorScheme="purple"
+                        m={0.5}
                     >
                         <TagLabel>{skill.name}</TagLabel>
                         <TagCloseButton onClick={() => deleteSkill(skill.id)} />
